@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #110e01;
+
+    }
+  header { 
+    margin-left:30%;
+    margin-right:30%;
+    width: 40%;
+    color:#ffdd31;
+    font-size: 80%;
+    text-align: center;
+    background-color: #110e01;
+    padding:2%;
+    font-family: 'Tilt Warp', cursive;
+    
+   
+
+   
+    }
+  main {
+    padding: 20px;
+    min-height: calc(150vh - 190px);
+    background-image: url(../images/background1.jpg);
+    background-size:190px;
+    background-repeat: repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    ul {
+        margin-left:10%;
+         margin-right:10%;
+      list-style-type: none;
+      background-color: #a9a9a8;
+      color: #222;
+      padding: 10px;
+      width: 150px;
+      margin: auto;
+      li {
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-style: outset;
+        background-color: #ffffff;
+        
+        img {
+          display: block;
+          width:20px;
+          margin:5%;
+        }
+        a {
+          text-decoration: none;
+          color: #222;
+          font-family: 'Tilt Warp', cursive;
+          font-size: 10px;
+          display: block;
+        }
+        
+      
+    }
+    li:hover {
+        border-style: inset;
+        background-color:#ffdd31;
+      }   
+
+    }
+  }
+  footer {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #838383;
+    font-family: 'Tilt Warp', cursive;
+    font-size: x-small;
+  }
